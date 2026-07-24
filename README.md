@@ -475,21 +475,23 @@ Each stage is handled by a dedicated AI team.
 
 ---
 
-# 🌐 Enterprise Use Cases
+# 👥 Who Uses Brigade Sentinel?
 
-Brigade Sentinel can be deployed across:
+Brigade Sentinel is designed for teams responsible for monitoring, investigating, and responding to cybersecurity incidents.
 
-- 🏦 Banking & Finance
-- 🏥 Healthcare
-- 🏛️ Government
-- ☁️ Cloud Providers
-- 🏭 Manufacturing
-- 🎓 Universities
-- 📡 Telecom
-- ⚡ Critical Infrastructure
+- 🛡️ Security Operations Center (SOC) Analysts
+- 🔍 Incident Response Teams
+- 👨‍💻 Security Engineers
+- 🏢 Security Operations Center (SOC) Managers
+- 🏛️ Chief Information Security Officers (CISOs)
+- 🌐 Network Administrators
+- 🔐 Cybersecurity Teams
+- ☁️ Cloud Security Engineers
+- 📋 Governance, Risk & Compliance (GRC) Teams
+- 🚨 Computer Security Incident Response Teams (CSIRTs)
 
----
-
+  ---
+  
 # 📈 Business Impact
 
 Brigade Sentinel helps organizations:
