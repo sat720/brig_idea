@@ -262,5 +262,243 @@ Rather than simply using Brigade, Brigade Sentinel demonstrates how Brigade can 
 - Scalable Multi-Agent Collaboration
 
 ---
+# 🏗️ System Overview
 
-**➡️ End of Part 1**
+Brigade Sentinel follows an event-driven, multi-agent architecture where every detected cyberattack automatically creates a specialized AI incident response organization.
+
+Instead of relying on one AI to perform every task, Brigade dynamically creates multiple AI teams. Every agent performs one responsibility, shares findings through Tideline Memory, and collaborates with other agents under Supervisor and Manager Agents.
+
+This enables faster, parallel, and more explainable incident response.
+
+---
+
+# 🔄 Complete Workflow
+
+```
+Enterprise Devices
+        │
+        ▼
+ Continuous Log Collection
+        │
+        ▼
+ Data Preprocessing
+        │
+        ▼
+ AI Detection Model
+        │
+Attack Detected
+        │
+        ▼
+ Brigade Supervisor Agent
+ (Incident Commander)
+        │
+        ▼
+ Dynamic AI Team Creation
+        │
+ ┌────────┬──────────┬──────────┬──────────┐
+ │        │          │          │
+Root   Threat    Response   Reporting
+Cause Intelligence
+        │
+        ▼
+ Shared Tideline Memory
+        │
+        ▼
+ Automation + Human Approval
+        │
+        ▼
+ Incident Resolution
+        │
+        ▼
+ Organizational Learning
+```
+
+---
+
+# 🤖 Dynamic Multi-Agent Architecture
+
+Every detected incident is assigned a dedicated AI organization.
+
+The **Incident Commander (Supervisor Agent)** analyzes the incident and dynamically creates specialized **Manager Agents**, which further spawn AI Sub-Agents based on the attack type.
+
+Examples include:
+
+- Root Cause & Explainability Team
+- Threat Intelligence Team
+- Response & Remediation Team
+- Reporting Team
+- Learning Team
+
+Each team performs its work independently while continuously collaborating through **Tideline Memory**.
+
+---
+
+# ⚡ Why Multiple Agents?
+
+Traditional AI follows a sequential workflow:
+
+```
+Detect
+ ↓
+Analyze
+ ↓
+Explain
+ ↓
+Recommend
+ ↓
+Report
+```
+
+Brigade Sentinel performs these tasks simultaneously.
+
+```
+Incident Commander
+        │
+ ┌──────┼────────────┐
+ │      │            │
+Root  Threat      Response
+Cause Intel        Team
+ │      │            │
+ └──────┼────────────┘
+        │
+   Reporting Team
+        │
+ Incident Resolution
+```
+
+This reduces response time while improving scalability, explainability, and collaboration.
+
+---
+
+# 🎯 Key Advantages
+
+✅ Dynamic AI Team Creation
+
+✅ Parallel Investigation
+
+✅ Shared Organizational Memory
+
+✅ Human-in-the-Loop
+
+✅ Explainable AI Decisions
+
+✅ Automated Incident Response
+
+✅ Continuous Learning
+
+---
+
+# ⚙️ Brigade Components
+
+Brigade Sentinel is built around Brigade's core capabilities.
+
+| Brigade Component | Usage |
+|-------------------|-------|
+| **Supervisor Agents** | Incident Commander supervises the complete investigation. |
+| **Manager Agents** | Manage specialized AI teams for each investigation stage. |
+| **Agent Mesh** | Enables multiple AI teams to collaborate in parallel. |
+| **Tideline Memory** | Shared organizational memory between all AI agents. |
+| **Skills** | Provides domain-specific cybersecurity capabilities. |
+| **Runtime** | Executes multiple AI agents simultaneously. |
+| **Automation Workflows** | Automates containment, notifications, and response actions. |
+| **MCP Integrations** | Connects with enterprise security platforms and knowledge sources. |
+| **Channels** | Enables AI agents and SOC analysts to collaborate. |
+| **Security** | Role-based permissions and Human-in-the-Loop approvals. |
+
+---
+
+# 🧠 AI Investigation Pipeline
+
+Every detected incident follows the same investigation pipeline.
+
+```
+Detection
+    ↓
+Root Cause Analysis
+    ↓
+Threat Intelligence
+    ↓
+Response & Remediation
+    ↓
+Reporting
+    ↓
+Learning
+```
+
+Each stage is handled by a dedicated AI team.
+
+---
+
+# 💻 Tech Stack
+
+### AI & Machine Learning
+
+- Python
+- Scikit-learn / TensorFlow
+- Large Language Models
+- RAG Pipeline
+
+### Brigade
+
+- Supervisor Agents
+- Agent Mesh
+- Tideline Memory
+- Skills
+- Runtime
+- Automation Workflows
+- MCP Integrations
+- Channels
+
+### Cybersecurity
+
+- MITRE ATT&CK
+- CVE Database
+- Threat Intelligence Feeds
+- SIEM Platforms
+- Firewalls
+- EDR Solutions
+
+### Backend
+
+- FastAPI
+- Python
+
+### Frontend
+
+- React
+- Tailwind CSS
+
+### Database
+
+- PostgreSQL
+- Vector Database (for RAG)
+
+---
+
+# 🌐 Enterprise Use Cases
+
+Brigade Sentinel can be deployed across:
+
+- 🏦 Banking & Finance
+- 🏥 Healthcare
+- 🏛️ Government
+- ☁️ Cloud Providers
+- 🏭 Manufacturing
+- 🎓 Universities
+- 📡 Telecom
+- ⚡ Critical Infrastructure
+
+---
+
+# 📈 Business Impact
+
+Brigade Sentinel helps organizations:
+
+- Reduce Mean Time To Detect (MTTD)
+- Reduce Mean Time To Respond (MTTR)
+- Improve SOC analyst productivity
+- Preserve organizational knowledge
+- Reduce repetitive investigations
+- Improve incident consistency
+- Scale cybersecurity operations without proportionally increasing analyst workload
+
