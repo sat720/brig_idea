@@ -504,3 +504,6 @@ Brigade Sentinel helps organizations:
 - Improve incident consistency
 - Scale cybersecurity operations without proportionally increasing analyst workload
 
+vote : https://brigade.spinabot.com/ideathon/idea/k57dwevgg745mehfhmq1yw2sdn8b53nc
+
+register : https://brigade.spinabot.com/ideathon/i/sat720
